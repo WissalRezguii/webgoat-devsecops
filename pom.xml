@@ -927,4 +927,10 @@
       </build>
     </profile>
   </profiles>
+<distributionManagement>
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://nexus:8081/repository/webgoat-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
