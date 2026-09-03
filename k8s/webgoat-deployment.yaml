@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webgoat
-          image: localhost:8083/webgoat-app:latest
+          image: 192.168.132.130:8083/webgoat-app:latest
           ports:
             - containerPort: 8080
             - containerPort: 9090
